@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		04B9FE10264FAEBB00CDF680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE0F264FAEBB00CDF680 /* AppDelegate.swift */; };
 		04B9FE12264FAEBB00CDF680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE11264FAEBB00CDF680 /* SceneDelegate.swift */; };
-		04B9FE14264FAEBB00CDF680 /* PitchPerfectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE13264FAEBB00CDF680 /* PitchPerfectViewController.swift */; };
+		04B9FE14264FAEBB00CDF680 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE13264FAEBB00CDF680 /* RecordAudioViewController.swift */; };
 		04B9FE19264FAEBC00CDF680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B9FE18264FAEBC00CDF680 /* Assets.xcassets */; };
 		04B9FE1C264FAEBC00CDF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B9FE1A264FAEBC00CDF680 /* LaunchScreen.storyboard */; };
-		04B9FE24264FC70E00CDF680 /* EditRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE23264FC70E00CDF680 /* EditRecordingViewController.swift */; };
+		04B9FE24264FC70E00CDF680 /* PlayRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE23264FC70E00CDF680 /* PlayRecordingViewController.swift */; };
+		04B9FE2626504C6300CDF680 /* PlayRecordingVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2526504C6300CDF680 /* PlayRecordingVCExtension.swift */; };
+		04B9FE2826504CF700CDF680 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2726504CF700CDF680 /* Constants.swift */; };
+		04B9FE2A26505C3000CDF680 /* PitchPerfectViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2926505C3000CDF680 /* PitchPerfectViews.swift */; };
+		04B9FE2C2650695500CDF680 /* RecordAudioVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2B2650695500CDF680 /* RecordAudioVCExtension.swift */; };
+		04B9FE2E26506E3C00CDF680 /* RecordAudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2D26506E3C00CDF680 /* RecordAudioViewModel.swift */; };
+		04B9FE302650752300CDF680 /* PlayRecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9FE2F2650752300CDF680 /* PlayRecordingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04B9FE0C264FAEBB00CDF680 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B9FE0F264FAEBB00CDF680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B9FE11264FAEBB00CDF680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04B9FE13264FAEBB00CDF680 /* PitchPerfectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectViewController.swift; sourceTree = "<group>"; };
+		04B9FE13264FAEBB00CDF680 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
 		04B9FE18264FAEBC00CDF680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B9FE1B264FAEBC00CDF680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B9FE1D264FAEBC00CDF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04B9FE23264FC70E00CDF680 /* EditRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordingViewController.swift; sourceTree = "<group>"; };
+		04B9FE23264FC70E00CDF680 /* PlayRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordingViewController.swift; sourceTree = "<group>"; };
+		04B9FE2526504C6300CDF680 /* PlayRecordingVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordingVCExtension.swift; sourceTree = "<group>"; };
+		04B9FE2726504CF700CDF680 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04B9FE2926505C3000CDF680 /* PitchPerfectViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectViews.swift; sourceTree = "<group>"; };
+		04B9FE2B2650695500CDF680 /* RecordAudioVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioVCExtension.swift; sourceTree = "<group>"; };
+		04B9FE2D26506E3C00CDF680 /* RecordAudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewModel.swift; sourceTree = "<group>"; };
+		04B9FE2F2650752300CDF680 /* PlayRecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		04B9FE0E264FAEBB00CDF680 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				04B9FE0F264FAEBB00CDF680 /* AppDelegate.swift */,
-				04B9FE11264FAEBB00CDF680 /* SceneDelegate.swift */,
-				04B9FE13264FAEBB00CDF680 /* PitchPerfectViewController.swift */,
+				04B9FE342651324700CDF680 /* Views */,
+				04B9FE332651323500CDF680 /* ViewModels */,
+				04B9FE322651321900CDF680 /* Controllers */,
+				04B9FE31265131FD00CDF680 /* Extensions */,
+				04B9FE352651325B00CDF680 /* Resources */,
 				04B9FE18264FAEBC00CDF680 /* Assets.xcassets */,
-				04B9FE1A264FAEBC00CDF680 /* LaunchScreen.storyboard */,
 				04B9FE1D264FAEBC00CDF680 /* Info.plist */,
-				04B9FE23264FC70E00CDF680 /* EditRecordingViewController.swift */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		04B9FE31265131FD00CDF680 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04B9FE2B2650695500CDF680 /* RecordAudioVCExtension.swift */,
+				04B9FE2526504C6300CDF680 /* PlayRecordingVCExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04B9FE322651321900CDF680 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B9FE13264FAEBB00CDF680 /* RecordAudioViewController.swift */,
+				04B9FE23264FC70E00CDF680 /* PlayRecordingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04B9FE332651323500CDF680 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04B9FE2D26506E3C00CDF680 /* RecordAudioViewModel.swift */,
+				04B9FE2F2650752300CDF680 /* PlayRecordingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04B9FE342651324700CDF680 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B9FE1A264FAEBC00CDF680 /* LaunchScreen.storyboard */,
+				04B9FE2926505C3000CDF680 /* PitchPerfectViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04B9FE352651325B00CDF680 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B9FE0F264FAEBB00CDF680 /* AppDelegate.swift */,
+				04B9FE11264FAEBB00CDF680 /* SceneDelegate.swift */,
+				04B9FE2726504CF700CDF680 /* Constants.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,10 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B9FE14264FAEBB00CDF680 /* PitchPerfectViewController.swift in Sources */,
+				04B9FE14264FAEBB00CDF680 /* RecordAudioViewController.swift in Sources */,
 				04B9FE10264FAEBB00CDF680 /* AppDelegate.swift in Sources */,
-				04B9FE24264FC70E00CDF680 /* EditRecordingViewController.swift in Sources */,
+				04B9FE302650752300CDF680 /* PlayRecordingViewModel.swift in Sources */,
+				04B9FE2626504C6300CDF680 /* PlayRecordingVCExtension.swift in Sources */,
+				04B9FE24264FC70E00CDF680 /* PlayRecordingViewController.swift in Sources */,
+				04B9FE2E26506E3C00CDF680 /* RecordAudioViewModel.swift in Sources */,
+				04B9FE2A26505C3000CDF680 /* PitchPerfectViews.swift in Sources */,
 				04B9FE12264FAEBB00CDF680 /* SceneDelegate.swift in Sources */,
+				04B9FE2C2650695500CDF680 /* RecordAudioVCExtension.swift in Sources */,
+				04B9FE2826504CF700CDF680 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
